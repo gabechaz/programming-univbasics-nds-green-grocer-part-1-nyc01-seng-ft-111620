@@ -47,16 +47,14 @@ def consolidate_cart(cart)
     
     if consolidated_cart[item]
       
->>>>>>> 91fb4d71c07c6582e7f6140f8552dcda2f825082
+
     else 
       consolidated_cart << item
       item[:count] = 1
     end
-<<<<<<< HEAD
-=======
-    item.each do |food_stat, food_att|
+
       
->>>>>>> 91fb4d71c07c6582e7f6140f8552dcda2f825082
+
     end
   end
 
